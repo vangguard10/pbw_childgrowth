@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.admin {
+    background: #ffad42; /* Latar oranye lembut untuk Admin */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    text-align: center;
+    /* Flexbox untuk align tengah */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontal */
+    justify-content: center; /* Vertikal */;
+}
+
+body.admin {
+    background-color: #ffad42; /* Latar oranye lembut untuk Admin */
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+
+    width: 400px; /* Menentukan lebar gambar */
+    height: 400px; /* Menentukan tinggi gambar */
+    border-radius: 50%; /* Membuat gambar berbentuk bulat */
+    object-fit: cover; /* Agar gambar tidak terdistorsi */
+}
+.profile-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profilepicture {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="file"],
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+
+.container {
+    margin: 50px auto;
+    max-width: 1000px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333333;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #555555;
+    font-size: 16px;
+}
+/* Gaya untuk tabel */
+table {
+    width: 100%; /* Lebar tabel penuh */
+    border-collapse: collapse; /* Hilangkan jarak antar border */
+    margin: 20px 0; /* Tambahkan jarak vertikal tabel dari elemen lain */
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Border antar sel */
+table th, table td {
+    border: 1px solid #dddddd; /* Warna border */
+    padding: 12px 15px; /* Tambahkan padding agar tidak terlalu rapat */
+}
+
+/* Header tabel */
+table th {
+    background-color: #f2f2f2; /* Warna latar belakang header */
+    color: #333333; /* Warna teks header */
+    font-weight: bold; /* Teks tebal untuk header */
+}
+
+/* Warna baris bergantian */
+table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Warna latar untuk baris genap */
+}
+
+table tr:nth-child(odd) {
+    background-color: #ffffff; /* Warna latar untuk baris ganjil */
+}
+
+/* Hover effect untuk baris */
+table tr:hover {
+    background-color: #e8f1f9; /* Warna saat baris dihover */
+}
+
+/* Atur teks di tabel agar tidak terlalu dekat */
+td, th {
+    text-align: center; /* Teks berada di tengah */
+    vertical-align: middle;
+}
+
+.tab-container {
+    border:3px #333333;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.tab-btn {
+    background: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.tab-btn:hover {
+    background: #0056b3;
+}
+
+.form-container {
+    text-align: left;
+}
+
+.form-container.hidden {
+    display: none;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333333;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    background: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #218838;
+}
